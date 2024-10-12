@@ -4,7 +4,9 @@ This repository showcases the trajectory optimization code for the **Europa Land
 
 ## Overview
 
-The code implements optimal trajectory generation for the landing phase of the ELMO mission, utilizing control theory and 'Lossless Convexification' method to minimize fuel consumption during descent. The main objectives include:
+The code implements optimal trajectory generation for the landing phase of the ELMO mission, utilizing control theory to minimize fuel consumption during descent. 
+
+During the **de-orbit, descent, and landing phase**, the trajectory is split into two main phases:
 
 - Powered descent trajectory optimization.
 - Simulation of landing dynamics on Europa's surface.
@@ -34,5 +36,15 @@ To run the code, you will need:
 ## Project Background
 
 This project is part of the ELMO mission, aiming to explore Europa's surface and gather crucial data for future missions. The trajectory optimization code is a key component in ensuring a successful landing.
+
+## References
+
+1. Acikmese, B., & Ploen, S. R. (2007). Convex Programming Approach to Powered Descent Guidance for Mars Landing. *Journal of Guidance, Control, and Dynamics*, 30(5), 1353-1366. Available from: [https://doi.org/10.2514/1.27553](https://doi.org/10.2514/1.27553).
+
+2. Malyuta, D., Reynolds, T. P., Szmuk, M., Lew, T., Bonalli, R., Pavone, M., et al. (2022). Convex Optimization for Trajectory Generation: A Tutorial on Generating Dynamically Feasible Trajectories Reliably and Efficiently. *IEEE Control Systems*, 42(5), 40-113. Free preprint available at [https://arxiv.org/abs/2106.09125](https://arxiv.org/abs/2106.09125). Available from: [https://doi.org/10.1109/mcs.2022.3187542](https://doi.org/10.1109/mcs.2022.3187542).
+
+3. Blackmore, L., A¸cikme¸se, B., & Scharf, D. P. (2010). Minimum-Landing-Error Powered-Descent Guidance for Mars Landing Using Convex Optimization. *Journal of Guidance, Control, and Dynamics*, 33(4), 1161-1171. Available from: [https://doi.org/10.2514/1.47202](https://doi.org/10.2514/1.47202).
+
+4. A¸cıkme¸se, B., Carson, J. M., & Blackmore, L. (2013). Lossless Convexification of Nonconvex Control Bound and Pointing Constraints of the Soft Landing Optimal Control Problem. *IEEE Transactions on Control Systems Technology*, 21(6), 2104-2113.
 
 Feel free to explore the code and adapt it for your own analyses!
