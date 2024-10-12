@@ -4,7 +4,7 @@ This repository showcases the trajectory optimization code for the **Europa Land
 
 ## Overview
 
-The code implements optimal trajectory generation for the landing phase of the ELMO mission, utilizing control theory to minimize fuel consumption during descent. The main objectives include:
+The code implements optimal trajectory generation for the landing phase of the ELMO mission, utilizing control theory and 'Lossless Convexification' method to minimize fuel consumption during descent. The main objectives include:
 
 - Powered descent trajectory optimization.
 - Simulation of landing dynamics on Europa's surface.
@@ -14,9 +14,9 @@ The code implements optimal trajectory generation for the landing phase of the E
 The codebase includes the following main files:
 
 - `main.m`: The main script for running the trajectory optimization and analysis.
-- `pre_descent_stage.m`: Function to compute optimal time for the powered descent stage.
+- `pre_descent_stage.m`: Function to compute optimal trajectory for the powered descent stage.
 - `solve_pdg_fft_descent.m`: Function to solve the optimal control problem for the powered descent.
-- `pre_lander.m`: Function to compute optimal time for the landing stage.
+- `pre_lander.m`: Function to compute optimal trajectory for the landing stage.
 - `solve_pdg_fft_lander.m`: Function to solve the optimal control problem for the landing.
 - Additional utility functions for plotting and analysis.
 
