@@ -36,5 +36,3 @@ To run the code, you will need:
 This project is part of the ELMO mission, aiming to explore Europa's surface and gather crucial data for future missions. The trajectory optimization code is a key component in ensuring a successful landing.
 
 Feel free to explore the code and adapt it for your own analyses!
-# ELMO_Trajectory_Optimization
-# ELMO_Trajectory_Optimization
