@@ -4,7 +4,7 @@ This repository showcases the trajectory optimization code for the **Europa Land
 
 ## Overview
 
-The code implements optimal trajectory generation for the landing phase of the ELMO mission, utilizing control theory to minimize fuel consumption during descent. 
+The code implements optimal trajectory generation for the landing phase of the ELMO mission, utilizing control theory and "Lossless Convexification" method to minimize fuel consumption during descent. 
 
 During the **de-orbit, descent, and landing phase**, the trajectory is split into two main phases:
 
